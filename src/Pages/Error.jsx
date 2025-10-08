@@ -1,5 +1,5 @@
 import React from 'react';
-import AppError from '/App-Error.png'
+import error from '/error-404.png'
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
@@ -9,7 +9,7 @@ const Error = () => {
             <Navbar></Navbar>
 
             <div className='w-6/12 border mx-auto flex-1 py-12'>
-            <img className='flex items-center' src={AppError} alt="" />
+            <img className='flex items-center' src={error} alt="" />
             </div>
 
             <Footer></Footer>

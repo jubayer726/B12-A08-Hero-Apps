@@ -12,15 +12,15 @@ const Banner = () => {
                 <p className='text-center text-gray-500'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
 
                 <div className='flex justify-center gap-4 py-10'>
-                    <div className='flex items-center btn'>
+                    <a href="https://play.google.com/store/games?hl=en" className='flex items-center btn'>
                         <img className='w-8 p-1' src={google} alt="" />
                         <h2 className='font-semibold'>Google Play</h2>
-                    </div>
+                    </a>
 
-                    <div className='flex items-center btn'>
+                    <a href='https://www.apple.com/app-store/' className='flex items-center btn'>
                         <img className='w-8 p-1' src={Aoogle} alt="" />
                         <h2 className='font-semibold'>App Store</h2>
-                    </div>
+                    </a>
             </div>
             <div>
                 <img src={hero} alt="" />

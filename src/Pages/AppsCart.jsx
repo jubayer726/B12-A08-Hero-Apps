@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const AppsCart = ({data}) => {
-    const {image, title, companyName, downloads, ratingAvg} = data;
+    const {image, title, companyName, downloads, ratingAvg, id} = data;
     return (
-        <Link to='/appdetails'>
+        <Link to={`/appdetails/${id}`}>
             <div className="card bg-base-100 shadow-sm pt-5">
             <figure>
-                <img src={image} alt="Shoes" />
+                <img className='rounded-2xl' src={image} alt="Shoes" />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">

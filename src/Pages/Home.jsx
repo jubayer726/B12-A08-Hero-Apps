@@ -23,8 +23,10 @@ const Home = () => {
                             featureApp.map(data=><AppsCart key={data.id} data={data}></AppsCart>)
                         }
                     </div>
+                    <div className='flex justify-center p-5'>
+                        <Link className='btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white' to='/allApps'>Show More</Link>
+                    </div>
                 </div>
-                <Link to='allApps'className='btn font-semibold'>Show More</Link>
             </section>
         </div>
     );

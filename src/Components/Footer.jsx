@@ -45,8 +45,9 @@ const Footer = () => {
                             </ul>
                         </div>
                 </div>
+                
                 <div className="text-left md:text-center text-gray-300 text-m mt-8">
-                © 2025 CS — Ticket System. All rights reserved.
+                © 2025 hero — Ticket System. All rights reserved.
                 <br className="block md:hidden" /> All rights reserved.
                 </div>
 

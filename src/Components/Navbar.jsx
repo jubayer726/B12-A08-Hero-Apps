@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '/logo.png'
+import { Link } from 'react-router';
 
 const Navbar = () => {
     return (
@@ -10,28 +11,29 @@ const Navbar = () => {
                 <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
+                <a href="http://"></a>
                 <ul
                     tabIndex={0}
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                    <li><a>Home</a></li>
-                    <li><a>Apps</a></li>
+                    <li><Link to ='/'>Home</Link></li>
+                    <li><Link to ='/allapps'>Apps</Link></li>
                     <li><a>Instalation</a></li>
                 </ul>
                 </div>
-                <div className='flex items-center'>
+                <Link to='/' className='flex items-center'>
                     <img className='w-10' src={logo} alt="logo" />
-                    <a className="btn btn-ghost text-xl">HERO.IO</a>
-                </div>
+                    <h1 className="btn btn-ghost text-xl">HERO.IO</h1>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-bold">
-                <li><a>Home</a></li>
-                <li><a>Apps</a></li>
-                <li><a>Instalation</a></li>
+                <li><Link to ='/'><i className="fa-solid fa-house"></i>Home</Link></li>
+                <li><Link to ='/allapps'><i className="fa-brands fa-app-store"></i>Apps</Link></li>
+                <li><a><i className="fa-brands fa-instalod"></i>Instalation</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">Contibuite</a>
+                <a href="http://github.com/jubayer726" className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white"><i className="fa-brands fa-github"></i>Contibuite</a>
             </div>
             </div>
         </div>
