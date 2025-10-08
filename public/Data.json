@@ -1,0 +1,546 @@
+[
+  {
+    "image": "https://picsum.photos/200?1",
+    "title": "ChatMate",
+    "companyName": "TechNova",
+    "id": 1,
+    "description": "ChatMate is an AI-powered messaging app that helps you stay connected with friends and coworkers. It features instant translations, smart replies, and secure end-to-end encryption for seamless global communication.",
+    "size": 48,
+    "reviews": 21450,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1050 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 12800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?2",
+    "title": "PhotoSnap",
+    "companyName": "PixelWorks",
+    "id": 2,
+    "description": "PhotoSnap lets you edit, enhance, and share stunning photos effortlessly. With AI filters, background remover, and one-tap adjustments, your pictures will always look professional and social-media ready.",
+    "size": 62,
+    "reviews": 9800,
+    "ratingAvg": 4.2,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 3930 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?3",
+    "title": "FitTrack",
+    "companyName": "Wellness Inc",
+    "id": 3,
+    "description": "FitTrack helps you monitor workouts, meals, and sleep patterns with advanced health insights. Its AI coach gives personalized tips to improve your fitness and achieve your health goals.",
+    "size": 54,
+    "reviews": 17200,
+    "ratingAvg": 4.7,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 10970 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?4",
+    "title": "NoteEase",
+    "companyName": "Paperless Co.",
+    "id": 4,
+    "description": "NoteEase lets you capture ideas, tasks, and reminders quickly with text, audio, or drawings. Sync across devices and access your notes anywhere, anytime.",
+    "size": 37,
+    "reviews": 8400,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 330 },
+      { "name": "2 star", "count": 510 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4160 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?5",
+    "title": "Foodify",
+    "companyName": "YummyTech",
+    "id": 5,
+    "description": "Foodify brings you thousands of recipes, smart meal planning, and calorie tracking in one app. Discover new dishes, save your favorites, and cook like a pro.",
+    "size": 59,
+    "reviews": 19800,
+    "ratingAvg": 4.6,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 12260 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?6",
+    "title": "Travelio",
+    "companyName": "GlobeSoft",
+    "id": 6,
+    "description": "Travelio helps you plan your dream trip with personalized recommendations, real-time flight tracking, and exclusive hotel deals around the world.",
+    "size": 67,
+    "reviews": 15600,
+    "ratingAvg": 4.4,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 7900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?7",
+    "title": "MusicFlow",
+    "companyName": "Harmony Labs",
+    "id": 7,
+    "description": "MusicFlow gives you unlimited access to millions of songs, playlists, and podcasts. Enjoy personalized recommendations and listen offline anytime.",
+    "size": 75,
+    "reviews": 45200,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 27500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?8",
+    "title": "LangLearn",
+    "companyName": "EduSmart",
+    "id": 8,
+    "description": "LangLearn makes learning new languages fun and interactive. Complete lessons, quizzes, and pronunciation exercises to master any language easily.",
+    "size": 44,
+    "reviews": 9800,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?9",
+    "title": "GameZone",
+    "companyName": "PlaySphere",
+    "id": 9,
+    "description": "GameZone is your all-in-one gaming hub. Discover trending games, chat with players, and compete in live tournaments for rewards and glory.",
+    "size": 89,
+    "reviews": 39000,
+    "ratingAvg": 4.1,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 11400 },
+      { "name": "5 star", "count": 17100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?10",
+    "title": "DocuScan",
+    "companyName": "OfficePro",
+    "id": 10,
+    "description": "DocuScan transforms your phone into a portable scanner. Digitize documents, receipts, and photos with crisp clarity and share instantly.",
+    "size": 35,
+    "reviews": 8200,
+    "ratingAvg": 4.4,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 3550 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?11",
+    "title": "WeatherNow",
+    "companyName": "SkyNet",
+    "id": 11,
+    "description": "WeatherNow delivers hyper-local forecasts with real-time radar and severe weather alerts. Stay informed and plan your day with confidence.",
+    "size": 42,
+    "reviews": 15200,
+    "ratingAvg": 4.2,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 750 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 7570 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?12",
+    "title": "TaskHero",
+    "companyName": "Prodify",
+    "id": 12,
+    "description": "TaskHero helps you stay productive by managing tasks, reminders, and deadlines. Set priorities and track progress effortlessly with an intuitive interface.",
+    "size": 36,
+    "reviews": 9600,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 950 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5320 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?13",
+    "title": "MindCalm",
+    "companyName": "Peaceful Apps",
+    "id": 13,
+    "description": "MindCalm offers guided meditations, soothing sounds, and breathing exercises to help reduce stress and improve focus throughout your day.",
+    "size": 41,
+    "reviews": 17800,
+    "ratingAvg": 4.8,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 13480 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?14",
+    "title": "BudgetBuddy",
+    "companyName": "FinGrow",
+    "id": 14,
+    "description": "BudgetBuddy helps you track expenses, set financial goals, and analyze spending habits with smart charts and insights.",
+    "size": 39,
+    "reviews": 12600,
+    "ratingAvg": 4.3,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 6960 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?15",
+    "title": "PetCare",
+    "companyName": "Animalia",
+    "id": 15,
+    "description": "PetCare lets you manage vet appointments, track feeding schedules, and monitor your pet’s health with reminders and useful tips.",
+    "size": 43,
+    "reviews": 9200,
+    "ratingAvg": 4.5,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 880 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4790 }
+    ]
+  },
+
+  
+  {
+    "image": "https://cdn.example.com/app16.png",
+    "title": "FocusFlow",
+    "companyName": "ZenLabs Ltd.",
+    "id": 16,
+    "description": "A minimalistic focus timer that uses the Pomodoro technique to help you work efficiently and avoid distractions.",
+    "size": 42,
+    "reviews": 18400,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app17.png",
+    "title": "MealMate",
+    "companyName": "HealthyBite Co.",
+    "id": 17,
+    "description": "Find personalized meal plans, healthy recipes, and calorie tracking all in one app designed for your wellness journey.",
+    "size": 65,
+    "reviews": 21600,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app18.png",
+    "title": "SoundStream",
+    "companyName": "WaveTech Audio",
+    "id": 18,
+    "description": "Stream unlimited music, create playlists, and enjoy high-quality audio offline with SoundStream Premium.",
+    "size": 78,
+    "reviews": 42000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 10200 },
+      { "name": "5 star", "count": 24000 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app19.png",
+    "title": "NoteNest",
+    "companyName": "PaperTree Labs",
+    "id": 19,
+    "description": "A modern note-taking app with cloud sync, markdown support, and a distraction-free writing experience.",
+    "size": 38,
+    "reviews": 9000,
+    "ratingAvg": 4.8,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app20.png",
+    "title": "EcoTrack",
+    "companyName": "GreenTech Studio",
+    "id": 20,
+    "description": "Track your carbon footprint and get daily eco-friendly challenges to live a more sustainable life.",
+    "size": 49,
+    "reviews": 5600,
+    "ratingAvg": 4.4,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app21.png",
+    "title": "QuizUp Pro",
+    "companyName": "BrainPlay Games",
+    "id": 21,
+    "description": "Challenge friends in real-time quizzes, learn new facts, and climb the global leaderboard.",
+    "size": 70,
+    "reviews": 33200,
+    "ratingAvg": 4.3,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 6800 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app22.png",
+    "title": "SafeVault",
+    "companyName": "CyberCore Security",
+    "id": 22,
+    "description": "Protect your passwords, notes, and sensitive files with end-to-end encryption and biometric access.",
+    "size": 58,
+    "reviews": 14800,
+    "ratingAvg": 4.9,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 10300 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app23.png",
+    "title": "FitJourney",
+    "companyName": "BodySync Fitness",
+    "id": 23,
+    "description": "Plan workouts, monitor your progress, and get AI-powered fitness recommendations tailored to your goals.",
+    "size": 83,
+    "reviews": 19500,
+    "ratingAvg": 4.6,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app24.png",
+    "title": "Travelio",
+    "companyName": "NextStop Labs",
+    "id": 24,
+    "description": "Book flights, hotels, and explore travel guides all from one app. Get personalized travel recommendations.",
+    "size": 90,
+    "reviews": 30200,
+    "ratingAvg": 4.2,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app25.png",
+    "title": "MindEase",
+    "companyName": "CalmWave Labs",
+    "id": 25,
+    "description": "Relax and reduce stress with guided meditations, sleep stories, and breathing exercises.",
+    "size": 52,
+    "reviews": 17000,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 11700 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app26.png",
+    "title": "ShopBuddy",
+    "companyName": "SmartMart Digital",
+    "id": 26,
+    "description": "Compare product prices, track discounts, and get the best online deals from thousands of stores.",
+    "size": 73,
+    "reviews": 25800,
+    "ratingAvg": 4.4,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app27.png",
+    "title": "StudySphere",
+    "companyName": "LearnMate Co.",
+    "id": 27,
+    "description": "Organize your study schedule, join live classes, and access digital notes and flashcards in one place.",
+    "size": 88,
+    "reviews": 23800,
+    "ratingAvg": 4.5,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 8100 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app28.png",
+    "title": "CryptoTrackr",
+    "companyName": "BlockChainX",
+    "id": 28,
+    "description": "Monitor real-time crypto prices, portfolio analytics, and blockchain news in one dashboard.",
+    "size": 67,
+    "reviews": 12400,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app29.png",
+    "title": "LangMaster",
+    "companyName": "EduSoft Global",
+    "id": 29,
+    "description": "Learn new languages with AI-powered lessons, pronunciation feedback, and daily practice reminders.",
+    "size": 79,
+    "reviews": 35600,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 9700 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "image": "https://cdn.example.com/app30.png",
+    "title": "HomePlanner",
+    "companyName": "DreamDesign Studio",
+    "id": 30,
+    "description": "Visualize your home renovation projects in 3D, pick furniture layouts, and design like a pro.",
+    "size": 120,
+    "reviews": 17600,
+    "ratingAvg": 4.4,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 8300 }
+    ]
+  }
+
+
+]
