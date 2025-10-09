@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='w-11/12 mx-auto py-10'>
                 <h1 className='text-center font-bold text-3xl p-5'>Trending Apps</h1>
                 <p className='text-gray-500 text-center pb-10'>Explore All Trending Apps on the Market developed by us</p>
-                    <div className='grid grid-cols-4 gap-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                         {
                             featureApp.map(data=><AppsCart key={data.id} data={data}></AppsCart>)
                         }

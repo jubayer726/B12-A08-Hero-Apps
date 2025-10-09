@@ -35,13 +35,12 @@ const AllApps = () => {
                     <input value={search} onChange={(e) =>setSearch(e.target.value)} type="search" required placeholder="Search Apps" />
                 </label>
                 </div>
-                    <div className='grid grid-cols-4 gap-4'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
                         {
                             searchApp.map(data=><AppsCart key={data.id} data={data}></AppsCart>)
                         }
                     </div>
                 </div>
-                {/* <Link to='allApps'className='btn font-semibold'>Show More</Link> */}
             </section>
         </div>
     );

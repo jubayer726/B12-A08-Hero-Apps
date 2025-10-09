@@ -7,6 +7,7 @@ import AllApps from '../Pages/AllApps';
 import AppDetails from '../Pages/AppDetails';
 import AppError from '../Pages/AppError';
 import Instalations from '../Pages/Instalations';
+import Loading from '../Pages/Loading';
 
 const router = createBrowserRouter([
   {
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
             path: '/',
             Component: Home,
             loader: () => fetch('../Data.json'),
-            hydrateFallbackElement: <h1 className="text-center text-3xl bg-red-600">Loading...</h1>
+            hydrateFallbackElement: <Loading></Loading>
         },
         {
             path: '/allApps',
@@ -36,8 +37,10 @@ const router = createBrowserRouter([
             Component: Instalations,
             
         }
+        
     ]
   },
+  
 ]);
 
 export default router

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const Instalations = () => {
@@ -7,7 +8,7 @@ const Instalations = () => {
     useEffect(()=>{
         const saveList = JSON.parse(localStorage.getItem("installed"));
         if(saveList) setInstalled(saveList)
-            console.log(installed);
+            
     }, [])
 
     const sortItem = () =>{
@@ -22,6 +23,7 @@ const Instalations = () => {
         }
         
         const handleRemove = (id) =>{
+            toast ("Uninstall Successfull!")
         const existingList = JSON.parse(localStorage.getItem('installed'))
         let updateList = existingList.filter(p=>p.id !== id)
             setInstalled(updateList);
@@ -68,6 +70,11 @@ const Instalations = () => {
                 )
             }
             </div>
+            <ToastContainer
+                    position="top-center"
+                    autoClose={4000}
+                    theme="dark"
+                    />
         </div>
     );
 };

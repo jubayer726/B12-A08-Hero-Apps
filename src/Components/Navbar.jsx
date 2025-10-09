@@ -17,7 +17,7 @@ const Navbar = () => {
                     className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                     <li><Link to ='/'>Home</Link></li>
                     <li><Link to ='/allapps'>Apps</Link></li>
-                    <li><a>Instalation</a></li>
+                    <li><Link to ='/instalations'>Instalation</Link></li>
                 </ul>
                 </div>
                 <Link to='/' className='flex items-center'>

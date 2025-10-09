@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 
 const AppsCart = ({data}) => {
     const {image, title, companyName, downloads, ratingAvg, id} = data;
+
     return (
         <Link to={`/appdetails/${id}`}>
             <div className="card bg-base-100 shadow-sm pt-5">
