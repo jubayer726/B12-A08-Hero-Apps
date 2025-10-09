@@ -12,7 +12,24 @@ const AppDetails = () => {
     const app = apps.find(p => String(p.id) === id)
     if(loading) return <h1 className='bg-red-600'>Loading....</h1>
 
-    const {image, title, description, ratingAvg, downloads, reviews} = app;
+    const {image, title, description, ratingAvg, downloads, reviews, size} = app;
+
+
+    const handleInstall =() =>{
+        alert("install")
+        const existingList = JSON.parse(localStorage.getItem('installed'))
+        let updateList = [];
+        if(existingList){
+            const isDuplicate = existingList.some(ins=>ins.id === app.id)
+            if(isDuplicate) return alert ("Already Install this app")
+                updateList = [...existingList, app];
+        }
+        else{
+            updateList.push(app)
+        }
+        localStorage.setItem('installed', JSON.stringify(updateList))
+        console.log(updateList);
+    }
     
     
 
@@ -43,7 +60,7 @@ const AppDetails = () => {
                            <h1 className="font-bold text-3xl">{reviews}K</h1>
                         </div>
                     </div>
-                    <button className='bg-green-600 w-[200px] btn p-5 mt-5 text-white font-semibold'>Install Now (190 MB) </button>
+                    <button onClick={handleInstall} className='bg-green-600 w-[200px] btn p-5 mt-5 text-white font-semibold'>Install Now{size}MB </button>
                 </div>
             </div>
             <hr className="border-t border-gray-300 my-4" />

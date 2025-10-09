@@ -29,7 +29,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1 font-bold">
                 <li><Link to ='/'><i className="fa-solid fa-house"></i>Home</Link></li>
                 <li><Link to ='/allapps'><i className="fa-brands fa-app-store"></i>Apps</Link></li>
-                <li><a><i className="fa-brands fa-instalod"></i>Instalation</a></li>
+                <li><Link to='/instalations'><i className="fa-brands fa-instalod"></i>Instalation</Link></li>
                 </ul>
             </div>
             <div className="navbar-end">

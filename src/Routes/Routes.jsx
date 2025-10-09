@@ -6,6 +6,7 @@ import Error from '../Pages/Error';
 import AllApps from '../Pages/AllApps';
 import AppDetails from '../Pages/AppDetails';
 import AppError from '../Pages/AppError';
+import Instalations from '../Pages/Instalations';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
             path: '/appdetails/:id',
             Component: AppDetails,
             errorElement: <AppError></AppError>
+        },
+        {
+            path: '/instalations',
+            Component: Instalations,
+            
         }
     ]
   },
