@@ -24,7 +24,7 @@ const Home = () => {
                         }
                     </div>
                     <div className='flex justify-center p-5'>
-                        <Link className='btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white' to='/allApps'>Show More</Link>
+                        <Link className='text-2xl btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white px-10 py-2 mt-5' to='/allApps'>Show All</Link>
                     </div>
                 </div>
             </section>

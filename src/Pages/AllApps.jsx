@@ -19,7 +19,7 @@ const AllApps = () => {
         </div>
         )
          if (searchApp.length == 0){
-        return (<div className='flex flex-col items-center p-10'><h2 className='text-center text-3xl font-bold text-red-500'>App Not Found</h2>
+        return (<div className='flex flex-col items-center p-10'><h2 className='text-center text-3xl font-bold text-gray-500'>No App Found</h2>
                 <Link to='/' className='btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white my-5 w-[200px]'>Go Back!</Link>
         </div>)
     }

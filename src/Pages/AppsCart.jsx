@@ -6,7 +6,7 @@ const AppsCart = ({data}) => {
 
     return (
         <Link to={`/appdetails/${id}`}>
-            <div className="card bg-base-100 shadow-sm pt-5">
+            <div className="card bg-base-100 shadow-sm pt-5 hover:scale-105 transition ease-in-out">
             <figure>
                 <img className='rounded-2xl' src={image} alt="Shoes" />
             </figure>

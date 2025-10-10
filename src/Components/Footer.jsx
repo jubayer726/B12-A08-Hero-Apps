@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="grid md:grid-cols-5 gap-16">
                         <Link to='/' className='flex items-center'>
                             <img className='w-20' src={logo} alt="logo" />
-                            <h1 className="btn btn-ghost text-2xl">HERO.IO</h1>
+                            <h1 className="font-bold text-3xl">HERO.IO</h1>
                         </Link>
                         <div>
                             <h4 className="text-white font-semibold mb-2">Company</h4>

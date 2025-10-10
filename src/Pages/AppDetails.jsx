@@ -3,10 +3,10 @@ import UseApps from '../Hook/UseApps';
 import { useParams } from 'react-router';
 import download from '/icon-downloads.png'
 import Ratings from '/icon-ratings.png'
-import review from '/icon-review.png'
-import { BarChart, Bar, Rectangle, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import review from '/icon-review.png';
 import { ToastContainer, toast } from 'react-toastify';
 import logo from '/logo.png'
+import RatingsChart from '../Components/RatingsChar';
 
 const AppDetails = () => {
     const {id} = useParams();
@@ -20,7 +20,7 @@ const AppDetails = () => {
           />
         </div> )
 
-    const {image, title, description, ratingAvg, downloads, reviews, size, ratings} = app;
+    const {image, title, description, ratingAvg, downloads, reviews, size} = app;
 
     const handleInstall =() =>{
         toast("The App installing..")
@@ -72,28 +72,7 @@ const AppDetails = () => {
                 </div>
             </div>
             <hr className="border-t border-gray-300 my-4" />
-
-            <div className='space-y-5 my-5'>
-                <h2 className='text-3xl font-bold'>Ratings</h2>
-                <div className='bg-base-100 rounded-2xl p-4 h-80'>
-                    <ResponsiveContainer width="100%" height="100%">
-                        <BarChart
-                        
-                            data={ratings}
-                            margin={{ top: 5, right: 30, left: 50, bottom: 5 }}
-                        >
-                            <CartesianGrid strokeDasharray="3 3" />
-                            <XAxis dataKey="ratings" />
-                            <YAxis />
-                            <Tooltip />
-                            <Legend />
-                             <Bar dataKey="count" fill="#FF8C00" barSize={25} radius={[4, 4, 4, 4]} />
-                        </BarChart>
-                        </ResponsiveContainer>
-
-                </div>
-            </div>
-
+            <RatingsChart></RatingsChart>
             <hr className="border-t border-gray-300 my-4" />
             <div className='p-5'>
                 <h1 className='p-5 text-2xl font-semibold'>Description</h1>
