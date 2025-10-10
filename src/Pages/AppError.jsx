@@ -2,7 +2,6 @@ import React from 'react';
 import Apperror from '/App-Error.png'
 import { Link } from 'react-router';
 
-
 const AppError = () => {
     return (
             <div className='flex flex-col items-center py-4'>

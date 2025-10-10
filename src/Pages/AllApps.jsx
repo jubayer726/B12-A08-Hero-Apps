@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import UseApps from '../Hook/UseApps';
 import AppsCart from './AppsCart';
+import { Link } from 'react-router';
+import logo from '/logo.png'
 
 const AllApps = () => {
     const {apps, loading} = UseApps()
@@ -8,8 +10,19 @@ const AllApps = () => {
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase();
     const searchApp = term? apps.filter(app =>app.title.toLocaleLowerCase().includes(term)) : apps;
-
-    if(loading) return <h1 className='bg-red-600'>Loading....</h1>
+    
+   
+    if(loading) return (<div className="flex items-center justify-center h-screen bg-white">
+          <img
+            src={logo} alt="Loading..."
+            className="w-40 h-40 animate-spin-slow"/>
+        </div>
+        )
+         if (searchApp.length == 0){
+        return (<div className='flex flex-col items-center p-10'><h2 className='text-center text-3xl font-bold text-red-500'>App Not Found</h2>
+                <Link to='/' className='btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white my-5 w-[200px]'>Go Back!</Link>
+        </div>)
+    }
 
     return (
         <div>

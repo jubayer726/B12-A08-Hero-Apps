@@ -6,13 +6,19 @@ import ratings from '/icon-ratings.png'
 import review from '/icon-review.png'
 // import Barchat from '/.Barchat.jsx';
 import { ToastContainer, toast } from 'react-toastify';
+import logo from '/logo.png'
 
 const AppDetails = () => {
     const {id} = useParams();
     const {apps, loading} = UseApps()
     const [disabled, setDisabled] = useState(false);
     const app = apps.find(p => String(p.id) === id)
-    if(loading) return <h1 className='text-3xl font-black bg-red-600 py-7'>Loading...</h1>
+    if(loading) return (<div className="flex items-center justify-center h-screen bg-white">
+          <img
+            src={logo} alt="Loading..."
+            className="w-40 h-40 animate-spin-slow"
+          />
+        </div> )
 
     const {image, title, description, ratingAvg, downloads, reviews, size} = app;
 

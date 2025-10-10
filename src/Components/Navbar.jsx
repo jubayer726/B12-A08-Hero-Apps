@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
                 <Link to='/' className='flex items-center'>
                     <img className='w-10' src={logo} alt="logo" />
-                    <h1 className="btn btn-ghost text-xl">HERO.IO</h1>
+                    <h1 className=" font-bold text-2xl px-2">HERO.IO</h1>
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
